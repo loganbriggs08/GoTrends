@@ -21,7 +21,7 @@ var sg = new(sync.WaitGroup)
 
 func main() {
 	//Enable debug to see request-response
-	//gogtrends.Debug(true)
+	gogtrends.Debug(true)
 
 	ctx := context.Background()
 
@@ -65,7 +65,7 @@ func main() {
 	explore, err := gogtrends.Explore(ctx, &gogtrends.ExploreRequest{
 		ComparisonItems: []*gogtrends.ComparisonItem{
 			{
-				Keyword: keyword,
+				Keyword: "GoLang",
 				Geo:     locUS,
 				Time:    "today 12-m",
 			},
