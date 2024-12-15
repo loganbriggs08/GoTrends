@@ -7,7 +7,7 @@ import (
 
 	"log"
 
-	gogtrends "github.com/loganbriggs08/GoTrends"
+	gogtrends "github.com/loganbriggs08/gotrends"
 	"github.com/pkg/errors"
 )
 
